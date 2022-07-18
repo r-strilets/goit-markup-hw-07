@@ -397,7 +397,6 @@ img {
 .customer:hover,
 .customer:focus {
   border-color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-customer {
   width: 106px;
@@ -407,7 +406,6 @@ img {
 .customer:hover .icon-customer,
 .icon-customer:focus .icon-customer {
   fill: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer:not(:first-child) {
