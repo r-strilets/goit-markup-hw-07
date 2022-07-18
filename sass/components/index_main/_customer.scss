@@ -12,24 +12,27 @@
   gap: 30px;
 }
 .customers__item {
+  width: calc((100% - 150px) / 6);
+}
+.customers__link {
+  display: block;
+  padding: 13px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-
-  width: calc((100% - 150px) / 6);
-  height: 92px;
 
   transition: border-color $time-function;
 
   &:hover {
     border-color: $accent-color;
   }
-}
-.customers__link {
-  display: block;
-  padding: 13px 32px;
+
+  &:hover .customers__icon {
+    fill: $accent-color;
+  }
 }
 .customers__icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+  transition: fill $time-function;
 }

@@ -484,7 +484,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-address">
-          <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
+          <a href="./index.html" class="logo"><span class="logo__color">Web</span>Studio</a>
           <address>
             <ul class="footer-contacts__list">
               <li class="footer-contacts__item">
@@ -492,7 +492,7 @@
                   href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
                   target="_blank"
                   rel="noopener nofollow noreferrer"
-                  class="footer-contacts__link address"
+                  class="footer-contacts__link footer-contacts__link-address"
                 >
                   г. Киев, пр-т Леси Украинки, 26</a
                 >
@@ -516,11 +516,11 @@
             <li class="footer-social__item">
               <a
                 href="#"
-                class="footer-social-link"
+                class="footer-social__link"
                 target="_blank"
                 rel="noopener nofollow noreferrer"
               >
-                <svg class="icon-footer-social-newtork">
+                <svg class="footer-social__icon" width="20" height="20">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
@@ -532,7 +532,7 @@
                 target="_blank"
                 rel="noopener nofollow noreferrer"
               >
-                <svg class="footer-social__icon">
+                <svg class="footer-social__icon" width="20" height="20">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
@@ -544,7 +544,7 @@
                 target="_blank"
                 rel="noopener nofollow noreferrer"
               >
-                <svg class="footer-social__icon">
+                <svg class="footer-social__icon" width="20" height="20">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
@@ -556,7 +556,7 @@
                 target="_blank"
                 rel="noopener nofollow noreferrer"
               >
-                <svg class="footer-social__icon">
+                <svg class="footer-social__icon" width="20" height="20">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
@@ -576,7 +576,7 @@
                 autocomplete="off"
               />
               <label for="email" class="subscribe__label">E-mail</label>
-              <button class="subscribe__button btn" type="submit">
+              <button class="subscribe__button" type="submit">
                 <span class="subscribe__text">Подписаться</span>
                 <svg class="subscribe__icon" width="24" height="24">
                   <use href="./images/icons.svg#telegram"></use>
@@ -594,7 +594,7 @@
         </svg>
         <form action="" class="modal-form">
           <p class="form__title">Оставьте свои данные, мы вам перезвоним</p>
-          <ul class="modal-form__list list">
+          <ul class="modal-form__list">
             <li class="modal-form__item">
               <label class="modal-form__label">
                 <span class="modal-label__text">Имя</span>
@@ -642,14 +642,14 @@
             </li>
             <li>
               <label class="label-checkbox">
-                <input class="label-checkbox__item visually-hidden" type="checkbox" />
+                <input class="label-checkbox__item label-checkbox__item-visually-hidden" type="checkbox" />
                 <span class="label-checkbox__icon"></span>
                 <span>Соглашаюсь с рассылкой и принимаю</span>
                 <a href="#" class="label-checkbox__link" target="_blank">Условия договора</a>
               </label>
             </li>
           </ul>
-          <button type="submit" class="modal-modal__btn-submit">Отправить</button>
+          <button type="submit" class="modal-form__btn-submit">Отправить</button>
         </form>
       </div>
     </div>

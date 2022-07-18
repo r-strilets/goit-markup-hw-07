@@ -15,6 +15,10 @@
 .contacts__list {
   display: flex;
   align-items: center;
+}
+
+.nav__list,
+.contacts__list {
   gap: 50px;
 }
 

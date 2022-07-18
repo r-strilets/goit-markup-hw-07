@@ -632,10 +632,7 @@ img {
   height: 20px;
   fill: var(--white-color);
 }
-.footer-subscribe {
-  margin-left: 93px;
-  padding-top: 12px;
-}
+
 .footer-subscribe-title {
   margin-bottom: 20px;
   font-size: 14px;
@@ -847,11 +844,6 @@ img {
 .checkbox-link {
   display: inline-block;
   margin-left: 4px;
-  /* font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(24 / 14); */
 
   color: var(--accent-color);
 }
