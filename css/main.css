@@ -573,6 +573,7 @@ address {
 }
 
 .modal-form__item-box {
+  display: block;
   position: relative;
 }
 
